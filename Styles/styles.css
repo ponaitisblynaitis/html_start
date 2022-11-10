@@ -1,11 +1,9 @@
 body {
     background-color: whitesmoke;
+    margin: 20px;
+    font-family: system-ui;
+    background-image: url(../IMAGES/white\ texture.jpg);
   }
-
-.img {
-    display: block;
-    margin: 0 auto;
-}
 
 ul.breadcrumb {
     padding: 10px 16px;
@@ -35,4 +33,32 @@ ul.breadcrumb li a {
 .footer{
     text-align: center;
   color: #808000;
+}
+
+.hero{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.produktai{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.konteineris{
+  background-color: #f5f5f5;
+  background-image: url(../IMAGES/CNV000001.jpg);
+  color: #b50606;
+  border: black;
+  border-style: solid;
+
+}
+div, span{
+  border: 3px solid red;
+  width: 200px;
+  height: 25px;
+  margin: 10px;
+  padding: 25px;
 }
